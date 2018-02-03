@@ -1,0 +1,15 @@
+counter = 0
+for i in range(1000,10000):
+    a = (i // 100)%2
+    b = (i % 100)%2
+    if (a==1 and b==0) or (a==0 and b==1):
+        counter += 1
+print(counter,"balanced numbers found")
+-----------------------------------------------
+sayac = 0
+for i in range(1000,10000):
+    a = (i // 100)%2
+    b = (i % 100)%2
+    if (a==1 and b==0) or (a==0 and b==1):
+        sayac += 1
+print(sayac,"tane dengeli sayı bulundu")
