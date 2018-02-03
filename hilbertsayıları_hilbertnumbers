@@ -1,0 +1,11 @@
+toplam = 0
+for i in range(250000,800000):
+    if (i-1)%4==0:
+        toplam+=i
+print(toplam,"tane hilbert sayısı bulundu")
+---------------------------------------------
+sum = 0
+for i in range(250000,800000):
+    if (i-1)%4==0:
+        sum+=i
+print(sum,"hilbert numbers was found")
