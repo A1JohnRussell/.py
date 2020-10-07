@@ -2,10 +2,4 @@ a = 0
 for i in range(1,200000):
     if str(i) == str(i)[::-1]:
          a+=1
-print("1'den 200.000'e kadar ***",a,"*** tane palindromik sayı var.")
------------------------------------------------------------------------
-a = 0
-for i in range(1,200000):
-    if str(i) == str(i)[::-1]:
-         a+=1
 print("from 1 to 200.000 there are ***",a,"*** palindromic numbers.")
